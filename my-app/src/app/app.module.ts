@@ -7,8 +7,9 @@ import { FooterComponent } from './footer/footer.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { SearchComponent } from './search/search.component';
-import { ProductComponent } from './product/product.component';
+// import { ProductComponent } from './product/product.component';
 import { StartComponent } from './start/start.component';
+import { ProductComponent } from './product/product.component';
 
 @NgModule({
   declarations: [
@@ -17,8 +18,9 @@ import { StartComponent } from './start/start.component';
     NavbarComponent,
     CarouselComponent,
     SearchComponent,
-    ProductComponent,
-    StartComponent
+    //ProductComponent,
+    StartComponent,
+    ProductComponent
   ],
   imports: [
     BrowserModule,

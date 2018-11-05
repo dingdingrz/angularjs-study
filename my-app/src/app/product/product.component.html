@@ -1,3 +1,17 @@
-<p>
-  product works!
-</p>
+<div *ngFor="let product of  products" class="col-md-4 col-sm-4 col-lg-4 float-left product">
+
+ <div >
+   <img src="../../assets/images/picture.jpg" style=" width:100%" alt="">
+ </div>
+ <div>
+   <span><a href="#">{{product.title}}</a></span>
+   <span class=" pull-right">{{product.price}}元</span>
+ </div>
+ <div>
+   <h4>{{product.des}}</h4>
+ </div>
+  <div>
+    <app-start [rating] = "product.rating"></app-start>
+  </div>
+
+</div>
